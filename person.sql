@@ -21,5 +21,5 @@ SELECT * FROM person WHERE age<20 or age>30;
 SELECT * FROM person WHERE age!=27;
 SELECT * FROM person WHERE favorite_color!='Red' and favorite_color!='Blue';
 SELECT * FROM person WHERE favorite_color='Orange' or favorite_color='Green';
-SELECT * FROM person WHERE favorite_color in ('Orange', 'Green', 'Blue');
-SELECT * FROM person WHERE favorite_color in ('Yellow', 'Purple');
+SELECT * FROM person WHERE favorite_color IN ('Orange', 'Green', 'Blue');
+SELECT * FROM person WHERE favorite_color IN ('Yellow', 'Purple');
